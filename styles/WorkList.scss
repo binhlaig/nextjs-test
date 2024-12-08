@@ -1,0 +1,14 @@
+
+@import "./varable.module.scss";
+@import "./point.module.scss";
+.work-list {
+    padding: 0 40px 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  
+    @include lg {
+      padding: 0 20px 120px;
+    }
+  }
